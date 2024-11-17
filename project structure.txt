@@ -1,0 +1,42 @@
+phishing_detection_project/
+├── data/
+│   └── phishing_dataset.csv           # Your dataset
+├── notebooks/
+│   └── data_exploration.ipynb         # Jupyter notebook for exploring and understanding data
+├── src/
+│   ├── __init__.py                    # Makes 'src' a package
+│   ├── data_preprocessing.py          # Script for data loading and preprocessing
+│   ├── feature_engineering.py         # Script for feature engineering
+│   ├── model_training.py              # Script for model training and evaluation
+│   └── utils.py                       # Utility functions (e.g., loading models, metrics calculation)
+├── models/
+│   └── random_forest_model.pkl        # Saved model files
+├── reports/
+│   └── evaluation_report.txt          # Model evaluation report
+├── main.py                            # Main script to run the pipeline
+├── README.md                          # Project description, setup instructions, etc.
+└── requirements.txt                   # List of required packages
+
+
+++++++++
+train model main
+
+from src.data_preprocessing import load_and_preprocess_data
+from src.feature_engineering import extract_features
+from src.model_training import train_and_evaluate
+
+def main():
+    print("Loading and preprocessing data...")
+    X_train, X_test, y_train, y_test = load_and_preprocess_data()
+    print("Data loaded and preprocessed successfully.")
+
+    print("Extracting features...")
+    X_train, X_test = extract_features(X_train, X_test)
+    print("Feature extraction completed.")
+
+    print("Training and evaluating model...")
+    train_and_evaluate(X_train, X_test, y_train, y_test)
+    print("Model training and evaluation completed.")
+
+if __name__ == "__main__":
+    main()
