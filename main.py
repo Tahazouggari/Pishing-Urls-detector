@@ -1,6 +1,7 @@
 # main.py
 
-from src.data_preprocessing import load_and_preprocess_data
+from src.data_preprocessing import load_and_preprocess_data, extract_url_features
+
 from src.utils import predict_url
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report
