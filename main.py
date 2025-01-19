@@ -1,51 +1,32 @@
-# main.py
+from featureExtractor import featureExtraction
+from pycaret.classification import load_model, predict_model
 
-from src.data_preprocessing import load_and_preprocess_data, extract_url_features
+model = load_model('model/phishingdetection')
 
-from src.utils import predict_url
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.metrics import classification_report
-import joblib
-import os
 
-def train_and_evaluate(X_train, X_test, y_train, y_test):
-    """
-    Trains a RandomForest model, evaluates it, and saves the model.
+def predict(url):
+    data = featureExtraction(url)
+    result = predict_model(model, data=data)
     
-    Args:
-        X_train, X_test, y_train, y_test: Training and testing data splits.
-    """
-    # Initialize the model with balanced class weights
-    model = RandomForestClassifier(class_weight='balanced')
-    model.fit(X_train, y_train)
+    # Get the prediction score for the positive class (Phishing)
+    prediction_score = result['prediction_score'][0]  
+    prediction_label = result['prediction_label'][0]  
+    # domain_age = result['Domain_Age'][0]  
+    # print('Result -> ', url)
+    
+    return {
+        'prediction_label': prediction_label,
+        'prediction_score': prediction_score * 100,
+    }
 
-    # Evaluate the model
-    y_pred = model.predict(X_test)
-    report = classification_report(y_test, y_pred, target_names=['Legitimate', 'Phishing'])
-    print("Classification Report:\n", report)
-
-    # Ensure the 'models' directory exists
-    os.makedirs('models', exist_ok=True)
-
-    # Save the trained model
-    joblib.dump(model, 'models/random_forest_model.pkl')
-    print("Model saved successfully!")
-
-def main():
-    # Step 1: Load and preprocess data
-    print("Loading and preprocessing data...")
-    X_train, X_test, y_train, y_test = load_and_preprocess_data()
-    print("Data loaded and preprocessed successfully.")
-
-    # Step 2: Train and evaluate the model
-    print("Training and evaluating model...")
-    train_and_evaluate(X_train, X_test, y_train, y_test)
-    print("Model training and evaluation completed.")
-
-    # Step 3: Test a sample URL
-    url_to_check = "https://leetcode.com/"
-    result = predict_url(url_to_check)
-    print(f"The URL '{url_to_check}' is classified as: {result}")
-
-if __name__ == "__main__":
-    main()
+if __name__ == "__main__": 
+    phishing_url_1 = 'https://bafybeifqd2yktzvwjw5g42l2ghvxsxn76khhsgqpkaqfdhnqf3kiuiegw4.ipfs.dweb.link/'
+    phishing_url_2 = 'http://about-ads-microsoft-com.o365.frc.skyfencenet.com'
+    real_url_1 = 'https://chat.openai.com'
+    real_url_2 = 'https://github.com/'
+    
+    
+    print(predict(phishing_url_1))
+    print(predict(phishing_url_2))
+    print(predict(real_url_1))
+    print(predict(real_url_2))
