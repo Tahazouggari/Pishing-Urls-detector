@@ -1,3 +1,8 @@
+"""
+Author: Taha Zouggari
+Email: tahazouggari61@gmail.com
+GitHub: https://github.com/Tahazouggari
+"""
 import whois
 from urllib.parse import urlparse
 import httpx

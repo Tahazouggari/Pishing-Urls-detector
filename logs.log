@@ -636,3 +636,1508 @@ current: {'deps_info': {'pip': '24.3.1', 'setuptools': '65.5.0', 'pycaret': '3.3
 pickle: {'deps_info': {'pip': '23.1.2', 'setuptools': '67.7.2', 'pycaret': '3.0.4', 'IPython': '7.34.0', 'ipywidgets': '7.7.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.0', 'imblearn': '0.10.1', 'category_encoders': '2.6.2', 'lightgbm': '4.0.0', 'numba': '0.56.4', 'requests': '2.31.0', 'matplotlib': '3.7.1', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.15.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.22.0', 'tbats': '1.1.3', 'pmdarima': '2.0.3', 'psutil': '5.9.5', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '2.2.1', 'deprecation': '2.1.0', 'xxhash': '3.3.0', 'wurlitzer': '3.0.3'}, 'python': {'version': '3.10.12', 'machine': 'x86_64'}}
   warnings.warn(
 
+2025-01-19 12:01:11,633:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-01-19 12:01:11,633:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-01-19 12:01:11,633:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-01-19 12:01:11,633:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-01-19 12:01:13,073:INFO:Initializing load_model()
+2025-01-19 12:01:13,073:INFO:load_model(model_name=model/phishingdetection, platform=None, authentication=None, verbose=True)
+2025-01-19 12:01:13,074:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator SimpleImputer from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:01:13,074:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator PowerTransformer from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:01:13,074:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator StandardScaler from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:01:13,434:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator LabelEncoder from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:01:13,435:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/pycaret/internal/pipeline.py:148: UserWarning: Version mismatch:
+current: {'deps_info': {'pip': '24.3.1', 'setuptools': '65.5.0', 'pycaret': '3.3.2', 'IPython': '8.31.0', 'ipywidgets': '8.1.5', 'tqdm': '4.67.1', 'numpy': '1.26.4', 'pandas': '2.1.4', 'jinja2': '3.1.5', 'scipy': '1.11.4', 'joblib': '1.3.2', 'sklearn': '1.4.2', 'pyod': '2.0.3', 'imblearn': '0.13.0', 'category_encoders': '2.7.0', 'lightgbm': '4.5.0', 'numba': '0.60.0', 'requests': '2.32.3', 'matplotlib': '3.7.5', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.24.1', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.4', 'sktime': '0.26.0', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '6.1.1', 'markupsafe': '2.1.5', 'pickle5': 'Not installed', 'cloudpickle': '3.1.1', 'deprecation': '2.1.0', 'xxhash': '3.5.0', 'wurlitzer': '3.1.1'}, 'python': {'version': '3.11.11', 'machine': 'x86_64'}}
+pickle: {'deps_info': {'pip': '23.1.2', 'setuptools': '67.7.2', 'pycaret': '3.0.4', 'IPython': '7.34.0', 'ipywidgets': '7.7.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.0', 'imblearn': '0.10.1', 'category_encoders': '2.6.2', 'lightgbm': '4.0.0', 'numba': '0.56.4', 'requests': '2.31.0', 'matplotlib': '3.7.1', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.15.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.22.0', 'tbats': '1.1.3', 'pmdarima': '2.0.3', 'psutil': '5.9.5', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '2.2.1', 'deprecation': '2.1.0', 'xxhash': '3.3.0', 'wurlitzer': '3.0.3'}, 'python': {'version': '3.10.12', 'machine': 'x86_64'}}
+  warnings.warn(
+
+2025-01-19 12:01:14,362:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-01-19 12:01:14,362:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-01-19 12:01:14,362:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-01-19 12:01:14,362:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-01-19 12:01:15,567:INFO:Initializing load_model()
+2025-01-19 12:01:15,567:INFO:load_model(model_name=model/phishingdetection, platform=None, authentication=None, verbose=True)
+2025-01-19 12:01:15,568:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator SimpleImputer from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:01:15,568:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator PowerTransformer from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:01:15,569:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator StandardScaler from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:01:15,922:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator LabelEncoder from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:01:15,924:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/pycaret/internal/pipeline.py:148: UserWarning: Version mismatch:
+current: {'deps_info': {'pip': '24.3.1', 'setuptools': '65.5.0', 'pycaret': '3.3.2', 'IPython': '8.31.0', 'ipywidgets': '8.1.5', 'tqdm': '4.67.1', 'numpy': '1.26.4', 'pandas': '2.1.4', 'jinja2': '3.1.5', 'scipy': '1.11.4', 'joblib': '1.3.2', 'sklearn': '1.4.2', 'pyod': '2.0.3', 'imblearn': '0.13.0', 'category_encoders': '2.7.0', 'lightgbm': '4.5.0', 'numba': '0.60.0', 'requests': '2.32.3', 'matplotlib': '3.7.5', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.24.1', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.4', 'sktime': '0.26.0', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '6.1.1', 'markupsafe': '2.1.5', 'pickle5': 'Not installed', 'cloudpickle': '3.1.1', 'deprecation': '2.1.0', 'xxhash': '3.5.0', 'wurlitzer': '3.1.1'}, 'python': {'version': '3.11.11', 'machine': 'x86_64'}}
+pickle: {'deps_info': {'pip': '23.1.2', 'setuptools': '67.7.2', 'pycaret': '3.0.4', 'IPython': '7.34.0', 'ipywidgets': '7.7.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.0', 'imblearn': '0.10.1', 'category_encoders': '2.6.2', 'lightgbm': '4.0.0', 'numba': '0.56.4', 'requests': '2.31.0', 'matplotlib': '3.7.1', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.15.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.22.0', 'tbats': '1.1.3', 'pmdarima': '2.0.3', 'psutil': '5.9.5', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '2.2.1', 'deprecation': '2.1.0', 'xxhash': '3.3.0', 'wurlitzer': '3.0.3'}, 'python': {'version': '3.10.12', 'machine': 'x86_64'}}
+  warnings.warn(
+
+2025-01-19 12:01:25,443:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator PCA from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:01:25,456:INFO:Initializing predict_model()
+2025-01-19 12:01:25,456:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x74d8ba72c550>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['domain_att', 'URL_Length',
+                                             'URL_Depth'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=321))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x74d8b9393740>)
+2025-01-19 12:01:25,456:INFO:Checking exceptions
+2025-01-19 12:01:25,457:INFO:Preloading libraries
+2025-01-19 12:01:25,457:INFO:Set up data.
+2025-01-19 12:01:25,464:INFO:Set up index.
+2025-01-19 12:06:13,412:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator PCA from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:06:13,422:INFO:Initializing predict_model()
+2025-01-19 12:06:13,422:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x74d8b6193f50>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['domain_att', 'URL_Length',
+                                             'URL_Depth'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=321))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x74d8b9393740>)
+2025-01-19 12:06:13,422:INFO:Checking exceptions
+2025-01-19 12:06:13,422:INFO:Preloading libraries
+2025-01-19 12:06:13,422:INFO:Set up data.
+2025-01-19 12:06:13,425:INFO:Set up index.
+2025-01-19 12:06:16,471:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-01-19 12:06:16,471:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-01-19 12:06:16,471:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-01-19 12:06:16,471:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-01-19 12:06:17,601:INFO:Initializing load_model()
+2025-01-19 12:06:17,601:INFO:load_model(model_name=model/phishingdetection, platform=None, authentication=None, verbose=True)
+2025-01-19 12:06:17,602:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator SimpleImputer from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:06:17,602:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator PowerTransformer from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:06:17,603:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator StandardScaler from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:06:17,963:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator LabelEncoder from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:06:17,965:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/pycaret/internal/pipeline.py:148: UserWarning: Version mismatch:
+current: {'deps_info': {'pip': '24.3.1', 'setuptools': '65.5.0', 'pycaret': '3.3.2', 'IPython': '8.31.0', 'ipywidgets': '8.1.5', 'tqdm': '4.67.1', 'numpy': '1.26.4', 'pandas': '2.1.4', 'jinja2': '3.1.5', 'scipy': '1.11.4', 'joblib': '1.3.2', 'sklearn': '1.4.2', 'pyod': '2.0.3', 'imblearn': '0.13.0', 'category_encoders': '2.7.0', 'lightgbm': '4.5.0', 'numba': '0.60.0', 'requests': '2.32.3', 'matplotlib': '3.7.5', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.24.1', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.4', 'sktime': '0.26.0', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '6.1.1', 'markupsafe': '2.1.5', 'pickle5': 'Not installed', 'cloudpickle': '3.1.1', 'deprecation': '2.1.0', 'xxhash': '3.5.0', 'wurlitzer': '3.1.1'}, 'python': {'version': '3.11.11', 'machine': 'x86_64'}}
+pickle: {'deps_info': {'pip': '23.1.2', 'setuptools': '67.7.2', 'pycaret': '3.0.4', 'IPython': '7.34.0', 'ipywidgets': '7.7.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.0', 'imblearn': '0.10.1', 'category_encoders': '2.6.2', 'lightgbm': '4.0.0', 'numba': '0.56.4', 'requests': '2.31.0', 'matplotlib': '3.7.1', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.15.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.22.0', 'tbats': '1.1.3', 'pmdarima': '2.0.3', 'psutil': '5.9.5', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '2.2.1', 'deprecation': '2.1.0', 'xxhash': '3.3.0', 'wurlitzer': '3.0.3'}, 'python': {'version': '3.10.12', 'machine': 'x86_64'}}
+  warnings.warn(
+
+2025-01-19 12:06:23,070:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator PCA from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:06:23,080:INFO:Initializing predict_model()
+2025-01-19 12:06:23,080:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7eaec2dd6210>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['domain_att', 'URL_Length',
+                                             'URL_Depth'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=321))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7eaec0faf560>)
+2025-01-19 12:06:23,081:INFO:Checking exceptions
+2025-01-19 12:06:23,081:INFO:Preloading libraries
+2025-01-19 12:06:23,082:INFO:Set up data.
+2025-01-19 12:06:23,086:INFO:Set up index.
+2025-01-19 12:06:56,735:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator PCA from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:06:56,742:INFO:Initializing predict_model()
+2025-01-19 12:06:56,743:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7eaec0fedf50>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['domain_att', 'URL_Length',
+                                             'URL_Depth'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=321))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7eaec4b2e2a0>)
+2025-01-19 12:06:56,743:INFO:Checking exceptions
+2025-01-19 12:06:56,743:INFO:Preloading libraries
+2025-01-19 12:06:56,743:INFO:Set up data.
+2025-01-19 12:06:56,748:INFO:Set up index.
+2025-01-19 12:06:59,849:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator PCA from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:06:59,859:INFO:Initializing predict_model()
+2025-01-19 12:06:59,859:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7eaec54e4050>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['domain_att', 'URL_Length',
+                                             'URL_Depth'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=321))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7eaec0fcb880>)
+2025-01-19 12:06:59,859:INFO:Checking exceptions
+2025-01-19 12:06:59,859:INFO:Preloading libraries
+2025-01-19 12:06:59,859:INFO:Set up data.
+2025-01-19 12:06:59,861:INFO:Set up index.
+2025-01-19 12:08:32,083:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator PCA from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:08:32,093:INFO:Initializing predict_model()
+2025-01-19 12:08:32,094:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7eaec0fde5d0>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['domain_att', 'URL_Length',
+                                             'URL_Depth'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=321))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7eaec0525c60>)
+2025-01-19 12:08:32,094:INFO:Checking exceptions
+2025-01-19 12:08:32,095:INFO:Preloading libraries
+2025-01-19 12:08:32,095:INFO:Set up data.
+2025-01-19 12:08:32,098:INFO:Set up index.
+2025-01-19 12:08:36,610:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator PCA from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:08:36,620:INFO:Initializing predict_model()
+2025-01-19 12:08:36,620:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7eaec23d5590>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['domain_att', 'URL_Length',
+                                             'URL_Depth'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=321))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7eaf0576ec00>)
+2025-01-19 12:08:36,620:INFO:Checking exceptions
+2025-01-19 12:08:36,620:INFO:Preloading libraries
+2025-01-19 12:08:36,620:INFO:Set up data.
+2025-01-19 12:08:36,625:INFO:Set up index.
+2025-01-19 12:08:38,699:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator PCA from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:08:38,707:INFO:Initializing predict_model()
+2025-01-19 12:08:38,708:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7eaec0faa2d0>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['domain_att', 'URL_Length',
+                                             'URL_Depth'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=321))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7eaec237ef20>)
+2025-01-19 12:08:38,708:INFO:Checking exceptions
+2025-01-19 12:08:38,708:INFO:Preloading libraries
+2025-01-19 12:08:38,708:INFO:Set up data.
+2025-01-19 12:08:38,711:INFO:Set up index.
+2025-01-19 12:08:39,671:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator PCA from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:08:39,677:INFO:Initializing predict_model()
+2025-01-19 12:08:39,678:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7eaec4b5fc50>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['domain_att', 'URL_Length',
+                                             'URL_Depth'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=321))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7eaec0fca0c0>)
+2025-01-19 12:08:39,678:INFO:Checking exceptions
+2025-01-19 12:08:39,678:INFO:Preloading libraries
+2025-01-19 12:08:39,678:INFO:Set up data.
+2025-01-19 12:08:39,680:INFO:Set up index.
+2025-01-19 12:08:42,888:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator PCA from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:08:42,899:INFO:Initializing predict_model()
+2025-01-19 12:08:42,900:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7eaec0fef550>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['domain_att', 'URL_Length',
+                                             'URL_Depth'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=321))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7eaec37c36a0>)
+2025-01-19 12:08:42,900:INFO:Checking exceptions
+2025-01-19 12:08:42,900:INFO:Preloading libraries
+2025-01-19 12:08:42,901:INFO:Set up data.
+2025-01-19 12:08:42,903:INFO:Set up index.
+2025-01-19 12:14:21,605:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator PCA from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:14:21,616:INFO:Initializing predict_model()
+2025-01-19 12:14:21,617:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7eaec23c9ad0>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['domain_att', 'URL_Length',
+                                             'URL_Depth'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=321))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7eaec0f9a7a0>)
+2025-01-19 12:14:21,617:INFO:Checking exceptions
+2025-01-19 12:14:21,617:INFO:Preloading libraries
+2025-01-19 12:14:21,618:INFO:Set up data.
+2025-01-19 12:14:21,621:INFO:Set up index.
+2025-01-19 12:14:28,245:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator PCA from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:14:28,255:INFO:Initializing predict_model()
+2025-01-19 12:14:28,255:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7eaec6809cd0>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['domain_att', 'URL_Length',
+                                             'URL_Depth'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=321))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7eaec4b38040>)
+2025-01-19 12:14:28,255:INFO:Checking exceptions
+2025-01-19 12:14:28,255:INFO:Preloading libraries
+2025-01-19 12:14:28,256:INFO:Set up data.
+2025-01-19 12:14:28,261:INFO:Set up index.
+2025-01-19 12:21:34,382:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator PCA from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:21:34,391:INFO:Initializing predict_model()
+2025-01-19 12:21:34,392:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7eaec2dd6dd0>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['domain_att', 'URL_Length',
+                                             'URL_Depth'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=321))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7eaec4b38b80>)
+2025-01-19 12:21:34,392:INFO:Checking exceptions
+2025-01-19 12:21:34,392:INFO:Preloading libraries
+2025-01-19 12:21:34,393:INFO:Set up data.
+2025-01-19 12:21:34,398:INFO:Set up index.
+2025-01-19 12:21:50,262:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-01-19 12:21:50,262:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-01-19 12:21:50,262:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-01-19 12:21:50,262:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-01-19 12:21:51,819:INFO:Initializing load_model()
+2025-01-19 12:21:51,819:INFO:load_model(model_name=model/phishingdetection, platform=None, authentication=None, verbose=True)
+2025-01-19 12:21:51,820:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator SimpleImputer from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:21:51,820:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator PowerTransformer from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:21:51,820:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator StandardScaler from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:21:52,183:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator LabelEncoder from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:21:52,184:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/pycaret/internal/pipeline.py:148: UserWarning: Version mismatch:
+current: {'deps_info': {'pip': '24.3.1', 'setuptools': '65.5.0', 'pycaret': '3.3.2', 'IPython': '8.31.0', 'ipywidgets': '8.1.5', 'tqdm': '4.67.1', 'numpy': '1.26.4', 'pandas': '2.1.4', 'jinja2': '3.1.5', 'scipy': '1.11.4', 'joblib': '1.3.2', 'sklearn': '1.4.2', 'pyod': '2.0.3', 'imblearn': '0.13.0', 'category_encoders': '2.7.0', 'lightgbm': '4.5.0', 'numba': '0.60.0', 'requests': '2.32.3', 'matplotlib': '3.7.5', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.24.1', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.4', 'sktime': '0.26.0', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '6.1.1', 'markupsafe': '2.1.5', 'pickle5': 'Not installed', 'cloudpickle': '3.1.1', 'deprecation': '2.1.0', 'xxhash': '3.5.0', 'wurlitzer': '3.1.1'}, 'python': {'version': '3.11.11', 'machine': 'x86_64'}}
+pickle: {'deps_info': {'pip': '23.1.2', 'setuptools': '67.7.2', 'pycaret': '3.0.4', 'IPython': '7.34.0', 'ipywidgets': '7.7.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.0', 'imblearn': '0.10.1', 'category_encoders': '2.6.2', 'lightgbm': '4.0.0', 'numba': '0.56.4', 'requests': '2.31.0', 'matplotlib': '3.7.1', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.15.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.22.0', 'tbats': '1.1.3', 'pmdarima': '2.0.3', 'psutil': '5.9.5', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '2.2.1', 'deprecation': '2.1.0', 'xxhash': '3.3.0', 'wurlitzer': '3.0.3'}, 'python': {'version': '3.10.12', 'machine': 'x86_64'}}
+  warnings.warn(
+
+2025-01-19 12:21:53,128:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-01-19 12:21:53,128:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-01-19 12:21:53,128:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-01-19 12:21:53,128:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-01-19 12:21:54,212:INFO:Initializing load_model()
+2025-01-19 12:21:54,212:INFO:load_model(model_name=model/phishingdetection, platform=None, authentication=None, verbose=True)
+2025-01-19 12:21:54,213:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator SimpleImputer from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:21:54,216:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator PowerTransformer from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:21:54,216:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator StandardScaler from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:21:54,619:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator LabelEncoder from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:21:54,624:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/pycaret/internal/pipeline.py:148: UserWarning: Version mismatch:
+current: {'deps_info': {'pip': '24.3.1', 'setuptools': '65.5.0', 'pycaret': '3.3.2', 'IPython': '8.31.0', 'ipywidgets': '8.1.5', 'tqdm': '4.67.1', 'numpy': '1.26.4', 'pandas': '2.1.4', 'jinja2': '3.1.5', 'scipy': '1.11.4', 'joblib': '1.3.2', 'sklearn': '1.4.2', 'pyod': '2.0.3', 'imblearn': '0.13.0', 'category_encoders': '2.7.0', 'lightgbm': '4.5.0', 'numba': '0.60.0', 'requests': '2.32.3', 'matplotlib': '3.7.5', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.24.1', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.4', 'sktime': '0.26.0', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '6.1.1', 'markupsafe': '2.1.5', 'pickle5': 'Not installed', 'cloudpickle': '3.1.1', 'deprecation': '2.1.0', 'xxhash': '3.5.0', 'wurlitzer': '3.1.1'}, 'python': {'version': '3.11.11', 'machine': 'x86_64'}}
+pickle: {'deps_info': {'pip': '23.1.2', 'setuptools': '67.7.2', 'pycaret': '3.0.4', 'IPython': '7.34.0', 'ipywidgets': '7.7.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.0', 'imblearn': '0.10.1', 'category_encoders': '2.6.2', 'lightgbm': '4.0.0', 'numba': '0.56.4', 'requests': '2.31.0', 'matplotlib': '3.7.1', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.15.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.22.0', 'tbats': '1.1.3', 'pmdarima': '2.0.3', 'psutil': '5.9.5', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '2.2.1', 'deprecation': '2.1.0', 'xxhash': '3.3.0', 'wurlitzer': '3.0.3'}, 'python': {'version': '3.10.12', 'machine': 'x86_64'}}
+  warnings.warn(
+
+2025-01-19 12:22:00,491:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator PCA from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:22:00,501:INFO:Initializing predict_model()
+2025-01-19 12:22:00,502:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x792fe8f8b410>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['domain_att', 'URL_Length',
+                                             'URL_Depth'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=321))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x792fea313880>)
+2025-01-19 12:22:00,502:INFO:Checking exceptions
+2025-01-19 12:22:00,502:INFO:Preloading libraries
+2025-01-19 12:22:00,502:INFO:Set up data.
+2025-01-19 12:22:00,507:INFO:Set up index.
+2025-01-19 12:22:12,133:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator PCA from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:22:12,143:INFO:Initializing predict_model()
+2025-01-19 12:22:12,143:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x792fea31c490>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['domain_att', 'URL_Length',
+                                             'URL_Depth'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=321))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x792fec185c60>)
+2025-01-19 12:22:12,143:INFO:Checking exceptions
+2025-01-19 12:22:12,143:INFO:Preloading libraries
+2025-01-19 12:22:12,143:INFO:Set up data.
+2025-01-19 12:22:12,146:INFO:Set up index.
+2025-01-19 12:29:13,557:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator PCA from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:29:13,566:INFO:Initializing predict_model()
+2025-01-19 12:29:13,567:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x792fec19be90>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['domain_att', 'URL_Length',
+                                             'URL_Depth'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=321))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x792fe7b3f740>)
+2025-01-19 12:29:13,567:INFO:Checking exceptions
+2025-01-19 12:29:13,567:INFO:Preloading libraries
+2025-01-19 12:29:13,567:INFO:Set up data.
+2025-01-19 12:29:13,570:INFO:Set up index.
+2025-01-19 12:29:31,491:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator PCA from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:29:31,501:INFO:Initializing predict_model()
+2025-01-19 12:29:31,501:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x792fe8fe0890>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['domain_att', 'URL_Length',
+                                             'URL_Depth'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=321))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x792fe7b2b380>)
+2025-01-19 12:29:31,502:INFO:Checking exceptions
+2025-01-19 12:29:31,502:INFO:Preloading libraries
+2025-01-19 12:29:31,502:INFO:Set up data.
+2025-01-19 12:29:31,505:INFO:Set up index.
+2025-01-19 12:29:38,730:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator PCA from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:29:38,740:INFO:Initializing predict_model()
+2025-01-19 12:29:38,740:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x792fedda09d0>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['domain_att', 'URL_Length',
+                                             'URL_Depth'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=321))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x792fe99c22a0>)
+2025-01-19 12:29:38,740:INFO:Checking exceptions
+2025-01-19 12:29:38,740:INFO:Preloading libraries
+2025-01-19 12:29:38,741:INFO:Set up data.
+2025-01-19 12:29:38,743:INFO:Set up index.
+2025-01-19 12:32:32,701:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator PCA from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:32:32,710:INFO:Initializing predict_model()
+2025-01-19 12:32:32,710:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x792fec1a0310>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['domain_att', 'URL_Length',
+                                             'URL_Depth'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=321))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x79305c76a200>)
+2025-01-19 12:32:32,710:INFO:Checking exceptions
+2025-01-19 12:32:32,710:INFO:Preloading libraries
+2025-01-19 12:32:32,711:INFO:Set up data.
+2025-01-19 12:32:32,713:INFO:Set up index.
+2025-01-19 12:32:55,537:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator PCA from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:32:55,546:INFO:Initializing predict_model()
+2025-01-19 12:32:55,546:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x792fe8f1c510>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['domain_att', 'URL_Length',
+                                             'URL_Depth'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=321))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x792fe8f2dda0>)
+2025-01-19 12:32:55,547:INFO:Checking exceptions
+2025-01-19 12:32:55,547:INFO:Preloading libraries
+2025-01-19 12:32:55,548:INFO:Set up data.
+2025-01-19 12:32:55,551:INFO:Set up index.
+2025-01-19 12:33:24,608:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator PCA from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:33:24,616:INFO:Initializing predict_model()
+2025-01-19 12:33:24,617:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x792fe9918b90>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['domain_att', 'URL_Length',
+                                             'URL_Depth'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=321))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x792fec17b6a0>)
+2025-01-19 12:33:24,618:INFO:Checking exceptions
+2025-01-19 12:33:24,618:INFO:Preloading libraries
+2025-01-19 12:33:24,618:INFO:Set up data.
+2025-01-19 12:33:24,621:INFO:Set up index.
+2025-01-19 12:33:40,187:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator PCA from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:33:40,196:INFO:Initializing predict_model()
+2025-01-19 12:33:40,197:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x792fea31c890>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['domain_att', 'URL_Length',
+                                             'URL_Depth'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=321))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x792fe8f0cd60>)
+2025-01-19 12:33:40,197:INFO:Checking exceptions
+2025-01-19 12:33:40,197:INFO:Preloading libraries
+2025-01-19 12:33:40,197:INFO:Set up data.
+2025-01-19 12:33:40,200:INFO:Set up index.
+2025-01-19 12:33:45,706:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator PCA from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:33:45,714:INFO:Initializing predict_model()
+2025-01-19 12:33:45,715:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x792fe8594ad0>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['domain_att', 'URL_Length',
+                                             'URL_Depth'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=321))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x792fec17aca0>)
+2025-01-19 12:33:45,715:INFO:Checking exceptions
+2025-01-19 12:33:45,715:INFO:Preloading libraries
+2025-01-19 12:33:45,716:INFO:Set up data.
+2025-01-19 12:33:45,720:INFO:Set up index.
+2025-01-19 12:33:48,467:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator PCA from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:33:48,475:INFO:Initializing predict_model()
+2025-01-19 12:33:48,475:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x792fe8f88f50>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['domain_att', 'URL_Length',
+                                             'URL_Depth'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=321))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x792fe7b3e980>)
+2025-01-19 12:33:48,476:INFO:Checking exceptions
+2025-01-19 12:33:48,476:INFO:Preloading libraries
+2025-01-19 12:33:48,477:INFO:Set up data.
+2025-01-19 12:33:48,479:INFO:Set up index.
+2025-01-19 12:34:31,072:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator PCA from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:34:31,082:INFO:Initializing predict_model()
+2025-01-19 12:34:31,082:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x792fe7b0f890>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['domain_att', 'URL_Length',
+                                             'URL_Depth'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=321))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x792fec185300>)
+2025-01-19 12:34:31,082:INFO:Checking exceptions
+2025-01-19 12:34:31,082:INFO:Preloading libraries
+2025-01-19 12:34:31,083:INFO:Set up data.
+2025-01-19 12:34:31,086:INFO:Set up index.
+2025-01-19 12:34:32,883:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator PCA from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:34:32,892:INFO:Initializing predict_model()
+2025-01-19 12:34:32,892:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x792fe7b72c90>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['domain_att', 'URL_Length',
+                                             'URL_Depth'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=321))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x792fe99c3560>)
+2025-01-19 12:34:32,892:INFO:Checking exceptions
+2025-01-19 12:34:32,892:INFO:Preloading libraries
+2025-01-19 12:34:32,893:INFO:Set up data.
+2025-01-19 12:34:32,896:INFO:Set up index.
+2025-01-19 12:34:34,285:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator PCA from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:34:34,294:INFO:Initializing predict_model()
+2025-01-19 12:34:34,295:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x792fe9943fd0>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['domain_att', 'URL_Length',
+                                             'URL_Depth'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=321))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x792fec17bd80>)
+2025-01-19 12:34:34,295:INFO:Checking exceptions
+2025-01-19 12:34:34,295:INFO:Preloading libraries
+2025-01-19 12:34:34,296:INFO:Set up data.
+2025-01-19 12:34:34,298:INFO:Set up index.
+2025-01-19 12:34:46,087:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator PCA from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:34:46,095:INFO:Initializing predict_model()
+2025-01-19 12:34:46,095:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x792fedda0490>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['domain_att', 'URL_Length',
+                                             'URL_Depth'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=321))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x79305c76a200>)
+2025-01-19 12:34:46,095:INFO:Checking exceptions
+2025-01-19 12:34:46,096:INFO:Preloading libraries
+2025-01-19 12:34:46,096:INFO:Set up data.
+2025-01-19 12:34:46,098:INFO:Set up index.
+2025-01-19 12:38:33,826:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator PCA from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:38:33,836:INFO:Initializing predict_model()
+2025-01-19 12:38:33,836:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x792fe7b76110>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['domain_att', 'URL_Length',
+                                             'URL_Depth'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=321))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x792fec1842c0>)
+2025-01-19 12:38:33,836:INFO:Checking exceptions
+2025-01-19 12:38:33,836:INFO:Preloading libraries
+2025-01-19 12:38:33,837:INFO:Set up data.
+2025-01-19 12:38:33,840:INFO:Set up index.
+2025-01-19 12:38:40,630:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator PCA from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:38:40,641:INFO:Initializing predict_model()
+2025-01-19 12:38:40,641:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x792fecbc3390>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['domain_att', 'URL_Length',
+                                             'URL_Depth'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=321))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x792fec17b560>)
+2025-01-19 12:38:40,642:INFO:Checking exceptions
+2025-01-19 12:38:40,642:INFO:Preloading libraries
+2025-01-19 12:38:40,643:INFO:Set up data.
+2025-01-19 12:38:40,645:INFO:Set up index.
+2025-01-19 12:38:44,225:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator PCA from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:38:44,234:INFO:Initializing predict_model()
+2025-01-19 12:38:44,234:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x792fe9910550>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['domain_att', 'URL_Length',
+                                             'URL_Depth'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=321))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x792fea311300>)
+2025-01-19 12:38:44,235:INFO:Checking exceptions
+2025-01-19 12:38:44,235:INFO:Preloading libraries
+2025-01-19 12:38:44,235:INFO:Set up data.
+2025-01-19 12:38:44,238:INFO:Set up index.
+2025-01-19 12:39:06,424:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator PCA from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:39:06,432:INFO:Initializing predict_model()
+2025-01-19 12:39:06,432:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x792fec1897d0>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['domain_att', 'URL_Length',
+                                             'URL_Depth'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=321))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x792fec185ee0>)
+2025-01-19 12:39:06,433:INFO:Checking exceptions
+2025-01-19 12:39:06,433:INFO:Preloading libraries
+2025-01-19 12:39:06,434:INFO:Set up data.
+2025-01-19 12:39:06,438:INFO:Set up index.
+2025-01-19 12:39:23,645:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator PCA from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:39:23,654:INFO:Initializing predict_model()
+2025-01-19 12:39:23,654:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x792fec15bad0>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['domain_att', 'URL_Length',
+                                             'URL_Depth'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=321))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x792fe8f0cb80>)
+2025-01-19 12:39:23,654:INFO:Checking exceptions
+2025-01-19 12:39:23,654:INFO:Preloading libraries
+2025-01-19 12:39:23,654:INFO:Set up data.
+2025-01-19 12:39:23,657:INFO:Set up index.
+2025-01-19 12:39:31,009:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator PCA from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:39:31,017:INFO:Initializing predict_model()
+2025-01-19 12:39:31,017:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x792fe8f7b5d0>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['domain_att', 'URL_Length',
+                                             'URL_Depth'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=321))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x792fe7b3e160>)
+2025-01-19 12:39:31,017:INFO:Checking exceptions
+2025-01-19 12:39:31,017:INFO:Preloading libraries
+2025-01-19 12:39:31,018:INFO:Set up data.
+2025-01-19 12:39:31,021:INFO:Set up index.
+2025-01-19 12:39:35,088:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator PCA from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:39:35,097:INFO:Initializing predict_model()
+2025-01-19 12:39:35,097:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x792fedd971d0>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['domain_att', 'URL_Length',
+                                             'URL_Depth'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=321))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x792fea313880>)
+2025-01-19 12:39:35,097:INFO:Checking exceptions
+2025-01-19 12:39:35,097:INFO:Preloading libraries
+2025-01-19 12:39:35,098:INFO:Set up data.
+2025-01-19 12:39:35,100:INFO:Set up index.
+2025-01-19 12:39:49,240:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator PCA from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:39:49,249:INFO:Initializing predict_model()
+2025-01-19 12:39:49,249:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x792fecc04f10>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['domain_att', 'URL_Length',
+                                             'URL_Depth'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=321))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x792fea313880>)
+2025-01-19 12:39:49,249:INFO:Checking exceptions
+2025-01-19 12:39:49,249:INFO:Preloading libraries
+2025-01-19 12:39:49,249:INFO:Set up data.
+2025-01-19 12:39:49,252:INFO:Set up index.
+2025-01-19 12:39:58,028:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator PCA from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:39:58,036:INFO:Initializing predict_model()
+2025-01-19 12:39:58,036:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x792fecbc1e10>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['domain_att', 'URL_Length',
+                                             'URL_Depth'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=321))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x792fec17b740>)
+2025-01-19 12:39:58,036:INFO:Checking exceptions
+2025-01-19 12:39:58,036:INFO:Preloading libraries
+2025-01-19 12:39:58,037:INFO:Set up data.
+2025-01-19 12:39:58,039:INFO:Set up index.
+2025-01-19 12:41:53,856:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator PCA from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:41:53,868:INFO:Initializing predict_model()
+2025-01-19 12:41:53,868:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x792fecbc43d0>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['domain_att', 'URL_Length',
+                                             'URL_Depth'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=321))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x792fe8f0cd60>)
+2025-01-19 12:41:53,869:INFO:Checking exceptions
+2025-01-19 12:41:53,869:INFO:Preloading libraries
+2025-01-19 12:41:53,869:INFO:Set up data.
+2025-01-19 12:41:53,872:INFO:Set up index.
+2025-01-19 12:42:22,832:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator PCA from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:42:22,841:INFO:Initializing predict_model()
+2025-01-19 12:42:22,841:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x792fe9943590>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['domain_att', 'URL_Length',
+                                             'URL_Depth'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=321))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x792fe7b3f740>)
+2025-01-19 12:42:22,841:INFO:Checking exceptions
+2025-01-19 12:42:22,841:INFO:Preloading libraries
+2025-01-19 12:42:22,842:INFO:Set up data.
+2025-01-19 12:42:22,844:INFO:Set up index.
+2025-01-19 12:43:20,382:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator PCA from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:43:20,392:INFO:Initializing predict_model()
+2025-01-19 12:43:20,392:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x792fedd95910>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['domain_att', 'URL_Length',
+                                             'URL_Depth'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=321))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x792fec17a980>)
+2025-01-19 12:43:20,392:INFO:Checking exceptions
+2025-01-19 12:43:20,393:INFO:Preloading libraries
+2025-01-19 12:43:20,393:INFO:Set up data.
+2025-01-19 12:43:20,397:INFO:Set up index.
+2025-01-19 12:43:55,707:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator PCA from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:43:55,716:INFO:Initializing predict_model()
+2025-01-19 12:43:55,716:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x792fecbbfe10>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['domain_att', 'URL_Length',
+                                             'URL_Depth'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=321))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x79305c76a8e0>)
+2025-01-19 12:43:55,717:INFO:Checking exceptions
+2025-01-19 12:43:55,717:INFO:Preloading libraries
+2025-01-19 12:43:55,717:INFO:Set up data.
+2025-01-19 12:43:55,720:INFO:Set up index.
+2025-01-19 12:45:24,693:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator PCA from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:45:24,703:INFO:Initializing predict_model()
+2025-01-19 12:45:24,704:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x792fea32bfd0>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['domain_att', 'URL_Length',
+                                             'URL_Depth'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=321))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x792fe7b3ee80>)
+2025-01-19 12:45:24,705:INFO:Checking exceptions
+2025-01-19 12:45:24,705:INFO:Preloading libraries
+2025-01-19 12:45:24,705:INFO:Set up data.
+2025-01-19 12:45:24,708:INFO:Set up index.
+2025-01-19 12:45:28,992:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator PCA from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:45:29,002:INFO:Initializing predict_model()
+2025-01-19 12:45:29,004:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x792fe7b72e10>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['domain_att', 'URL_Length',
+                                             'URL_Depth'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=321))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x792fec184c20>)
+2025-01-19 12:45:29,004:INFO:Checking exceptions
+2025-01-19 12:45:29,005:INFO:Preloading libraries
+2025-01-19 12:45:29,005:INFO:Set up data.
+2025-01-19 12:45:29,008:INFO:Set up index.
+2025-01-19 12:45:33,432:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator PCA from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:45:33,442:INFO:Initializing predict_model()
+2025-01-19 12:45:33,442:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x792fe8fddb90>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['domain_att', 'URL_Length',
+                                             'URL_Depth'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=321))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x79305c76a8e0>)
+2025-01-19 12:45:33,442:INFO:Checking exceptions
+2025-01-19 12:45:33,442:INFO:Preloading libraries
+2025-01-19 12:45:33,442:INFO:Set up data.
+2025-01-19 12:45:33,445:INFO:Set up index.
+2025-01-19 12:45:54,592:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator PCA from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:45:54,600:INFO:Initializing predict_model()
+2025-01-19 12:45:54,600:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x792fe9943590>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['domain_att', 'URL_Length',
+                                             'URL_Depth'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=321))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x792fe7b2b380>)
+2025-01-19 12:45:54,601:INFO:Checking exceptions
+2025-01-19 12:45:54,603:INFO:Preloading libraries
+2025-01-19 12:45:54,604:INFO:Set up data.
+2025-01-19 12:45:54,608:INFO:Set up index.
+2025-01-19 12:46:46,266:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator PCA from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:46:46,276:INFO:Initializing predict_model()
+2025-01-19 12:46:46,276:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x792fe8fdd610>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['domain_att', 'URL_Length',
+                                             'URL_Depth'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=321))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x792fec185e40>)
+2025-01-19 12:46:46,276:INFO:Checking exceptions
+2025-01-19 12:46:46,276:INFO:Preloading libraries
+2025-01-19 12:46:46,276:INFO:Set up data.
+2025-01-19 12:46:46,279:INFO:Set up index.
+2025-01-19 12:46:52,651:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator PCA from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:46:52,660:INFO:Initializing predict_model()
+2025-01-19 12:46:52,660:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x792fea3c16d0>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['domain_att', 'URL_Length',
+                                             'URL_Depth'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=321))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x79302cf6ac00>)
+2025-01-19 12:46:52,661:INFO:Checking exceptions
+2025-01-19 12:46:52,661:INFO:Preloading libraries
+2025-01-19 12:46:52,661:INFO:Set up data.
+2025-01-19 12:46:52,664:INFO:Set up index.
+2025-01-19 12:47:15,552:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator PCA from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:47:15,562:INFO:Initializing predict_model()
+2025-01-19 12:47:15,562:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x792fe9918510>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['domain_att', 'URL_Length',
+                                             'URL_Depth'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=321))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x79305c76a8e0>)
+2025-01-19 12:47:15,563:INFO:Checking exceptions
+2025-01-19 12:47:15,563:INFO:Preloading libraries
+2025-01-19 12:47:15,564:INFO:Set up data.
+2025-01-19 12:47:15,567:INFO:Set up index.
+2025-01-19 12:47:19,207:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator PCA from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:47:19,215:INFO:Initializing predict_model()
+2025-01-19 12:47:19,215:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x792fecbc3250>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['domain_att', 'URL_Length',
+                                             'URL_Depth'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=321))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x792fe8f2dda0>)
+2025-01-19 12:47:19,215:INFO:Checking exceptions
+2025-01-19 12:47:19,215:INFO:Preloading libraries
+2025-01-19 12:47:19,215:INFO:Set up data.
+2025-01-19 12:47:19,218:INFO:Set up index.
+2025-01-19 12:47:24,291:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator PCA from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:47:24,300:INFO:Initializing predict_model()
+2025-01-19 12:47:24,301:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x792fec1a0490>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['domain_att', 'URL_Length',
+                                             'URL_Depth'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=321))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x792fec185bc0>)
+2025-01-19 12:47:24,301:INFO:Checking exceptions
+2025-01-19 12:47:24,301:INFO:Preloading libraries
+2025-01-19 12:47:24,301:INFO:Set up data.
+2025-01-19 12:47:24,304:INFO:Set up index.
+2025-01-19 12:49:52,670:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator PCA from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:49:52,680:INFO:Initializing predict_model()
+2025-01-19 12:49:52,681:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x792fe7b31310>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['domain_att', 'URL_Length',
+                                             'URL_Depth'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=321))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x792fe99c2d40>)
+2025-01-19 12:49:52,681:INFO:Checking exceptions
+2025-01-19 12:49:52,681:INFO:Preloading libraries
+2025-01-19 12:49:52,681:INFO:Set up data.
+2025-01-19 12:49:52,684:INFO:Set up index.
+2025-01-19 12:51:44,408:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-01-19 12:51:44,408:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-01-19 12:51:44,408:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-01-19 12:51:44,408:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-01-19 12:51:45,784:INFO:Initializing load_model()
+2025-01-19 12:51:45,785:INFO:load_model(model_name=model/phishingdetection, platform=None, authentication=None, verbose=True)
+2025-01-19 12:51:45,785:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator SimpleImputer from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:51:45,785:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator PowerTransformer from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:51:45,786:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator StandardScaler from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:51:46,092:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator LabelEncoder from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:51:46,094:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/pycaret/internal/pipeline.py:148: UserWarning: Version mismatch:
+current: {'deps_info': {'pip': '24.3.1', 'setuptools': '65.5.0', 'pycaret': '3.3.2', 'IPython': '8.31.0', 'ipywidgets': '8.1.5', 'tqdm': '4.67.1', 'numpy': '1.26.4', 'pandas': '2.1.4', 'jinja2': '3.1.5', 'scipy': '1.11.4', 'joblib': '1.3.2', 'sklearn': '1.4.2', 'pyod': '2.0.3', 'imblearn': '0.13.0', 'category_encoders': '2.7.0', 'lightgbm': '4.5.0', 'numba': '0.60.0', 'requests': '2.32.3', 'matplotlib': '3.7.5', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.24.1', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.4', 'sktime': '0.26.0', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '6.1.1', 'markupsafe': '2.1.5', 'pickle5': 'Not installed', 'cloudpickle': '3.1.1', 'deprecation': '2.1.0', 'xxhash': '3.5.0', 'wurlitzer': '3.1.1'}, 'python': {'version': '3.11.11', 'machine': 'x86_64'}}
+pickle: {'deps_info': {'pip': '23.1.2', 'setuptools': '67.7.2', 'pycaret': '3.0.4', 'IPython': '7.34.0', 'ipywidgets': '7.7.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.0', 'imblearn': '0.10.1', 'category_encoders': '2.6.2', 'lightgbm': '4.0.0', 'numba': '0.56.4', 'requests': '2.31.0', 'matplotlib': '3.7.1', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.15.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.22.0', 'tbats': '1.1.3', 'pmdarima': '2.0.3', 'psutil': '5.9.5', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '2.2.1', 'deprecation': '2.1.0', 'xxhash': '3.3.0', 'wurlitzer': '3.0.3'}, 'python': {'version': '3.10.12', 'machine': 'x86_64'}}
+  warnings.warn(
+
+2025-01-19 12:51:46,900:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-01-19 12:51:46,900:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-01-19 12:51:46,900:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-01-19 12:51:46,900:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-01-19 12:51:48,277:INFO:Initializing load_model()
+2025-01-19 12:51:48,277:INFO:load_model(model_name=model/phishingdetection, platform=None, authentication=None, verbose=True)
+2025-01-19 12:51:48,278:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator SimpleImputer from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:51:48,281:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator PowerTransformer from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:51:48,281:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator StandardScaler from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:51:48,737:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator LabelEncoder from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 12:51:48,740:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/pycaret/internal/pipeline.py:148: UserWarning: Version mismatch:
+current: {'deps_info': {'pip': '24.3.1', 'setuptools': '65.5.0', 'pycaret': '3.3.2', 'IPython': '8.31.0', 'ipywidgets': '8.1.5', 'tqdm': '4.67.1', 'numpy': '1.26.4', 'pandas': '2.1.4', 'jinja2': '3.1.5', 'scipy': '1.11.4', 'joblib': '1.3.2', 'sklearn': '1.4.2', 'pyod': '2.0.3', 'imblearn': '0.13.0', 'category_encoders': '2.7.0', 'lightgbm': '4.5.0', 'numba': '0.60.0', 'requests': '2.32.3', 'matplotlib': '3.7.5', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.24.1', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.4', 'sktime': '0.26.0', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '6.1.1', 'markupsafe': '2.1.5', 'pickle5': 'Not installed', 'cloudpickle': '3.1.1', 'deprecation': '2.1.0', 'xxhash': '3.5.0', 'wurlitzer': '3.1.1'}, 'python': {'version': '3.11.11', 'machine': 'x86_64'}}
+pickle: {'deps_info': {'pip': '23.1.2', 'setuptools': '67.7.2', 'pycaret': '3.0.4', 'IPython': '7.34.0', 'ipywidgets': '7.7.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.0', 'imblearn': '0.10.1', 'category_encoders': '2.6.2', 'lightgbm': '4.0.0', 'numba': '0.56.4', 'requests': '2.31.0', 'matplotlib': '3.7.1', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.15.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.22.0', 'tbats': '1.1.3', 'pmdarima': '2.0.3', 'psutil': '5.9.5', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '2.2.1', 'deprecation': '2.1.0', 'xxhash': '3.3.0', 'wurlitzer': '3.0.3'}, 'python': {'version': '3.10.12', 'machine': 'x86_64'}}
+  warnings.warn(
+
+2025-01-19 13:14:44,189:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator PCA from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 13:14:44,202:INFO:Initializing predict_model()
+2025-01-19 13:14:44,202:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f5d2c277e90>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['domain_att', 'URL_Length',
+                                             'URL_Depth'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=321))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7f5d6874bb00>)
+2025-01-19 13:14:44,203:INFO:Checking exceptions
+2025-01-19 13:14:44,204:INFO:Preloading libraries
+2025-01-19 13:14:44,205:INFO:Set up data.
+2025-01-19 13:14:44,212:INFO:Set up index.
+2025-01-19 13:15:59,928:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator PCA from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 13:15:59,937:INFO:Initializing predict_model()
+2025-01-19 13:15:59,938:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f5d2c176d50>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['domain_att', 'URL_Length',
+                                             'URL_Depth'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=321))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7f5d2c34ab60>)
+2025-01-19 13:15:59,938:INFO:Checking exceptions
+2025-01-19 13:15:59,939:INFO:Preloading libraries
+2025-01-19 13:15:59,939:INFO:Set up data.
+2025-01-19 13:15:59,942:INFO:Set up index.
+2025-01-19 13:16:32,485:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator PCA from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 13:16:32,493:INFO:Initializing predict_model()
+2025-01-19 13:16:32,493:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f5d2c276110>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['domain_att', 'URL_Length',
+                                             'URL_Depth'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=321))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7f5d2c4b3c40>)
+2025-01-19 13:16:32,493:INFO:Checking exceptions
+2025-01-19 13:16:32,493:INFO:Preloading libraries
+2025-01-19 13:16:32,494:INFO:Set up data.
+2025-01-19 13:16:32,496:INFO:Set up index.
+2025-01-19 13:16:41,756:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator PCA from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 13:16:41,766:INFO:Initializing predict_model()
+2025-01-19 13:16:41,766:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f5d2c0ac250>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['domain_att', 'URL_Length',
+                                             'URL_Depth'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=321))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7f5d2c4d0400>)
+2025-01-19 13:16:41,767:INFO:Checking exceptions
+2025-01-19 13:16:41,767:INFO:Preloading libraries
+2025-01-19 13:16:41,769:INFO:Set up data.
+2025-01-19 13:16:41,772:INFO:Set up index.
+2025-01-19 13:18:15,197:WARNING:/home/taha-zouggari/Documents/project /academic/phishing url detector/venv/lib/python3.11/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator PCA from version 1.2.2 when using version 1.4.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2025-01-19 13:18:15,205:INFO:Initializing predict_model()
+2025-01-19 13:18:15,205:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f5d26b19710>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['domain_att', 'URL_Length',
+                                             'URL_Depth'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=321))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7f5d6897ac00>)
+2025-01-19 13:18:15,205:INFO:Checking exceptions
+2025-01-19 13:18:15,206:INFO:Preloading libraries
+2025-01-19 13:18:15,206:INFO:Set up data.
+2025-01-19 13:18:15,209:INFO:Set up index.

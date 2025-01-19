@@ -1,3 +1,8 @@
+"""
+Author: Taha Zouggari
+Email: tahazouggari61@gmail.com
+GitHub: https://github.com/Tahazouggari
+"""
 from flask import Flask, request, render_template
 from featureExtractor import featureExtraction
 from pycaret.classification import load_model, predict_model

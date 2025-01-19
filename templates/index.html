@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/bootsnav.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/style.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/responsive.css') }}">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 <body>
     <!-- Header -->
@@ -25,9 +26,9 @@
     <!-- Main Section -->
     <section id="home" class="welcome-hero">
         <div class="welcome-hero-txt">
-            <h2>The Best Place to Detect and Avoid Phishing Links</h2>
+            <h2>Detect and Avoid Phishing Links</h2>
             <p>
-                Quickly check if a URL is legitimate or a potential phishing threat. Stay safe online with just one click.
+				Utilize advanced machine learning technology to analyze and predict the safety of your URLs with precision and reliability.
             </p>
         </div>
         <form method="POST" action="/">
@@ -36,19 +37,28 @@
             <button type="submit" class="Check-url">Check URL</button>
         </form>
 		{% if url %}
-		<div class="row justify-content-center mt-3">
-		  
-		  <div class="col-md-8 col-12 mb-3 mt-3 border shadow-sm bg-light rounded p-3">
-			  
-			  {% if data.prediction_label == 1 %}            
-				  <h1 class='display-6 text-danger fw-bold'>URL does not look secure!</h1>
-			  {% else %}
-				  <h1 class='display-6 text-success fw-bold'>URL Looks Secure!</h1>
-			  {% endif %}
-			  <p class="text-secondary fw-bold"> <small>{{url}}</small></p>
+
+    
+        {% if data.prediction_label == 1 %}    
+		        
+            <div class="w3-panel w3-red w3-border w3-center" style="max-width: 50%; margin: 0 auto; padding: 10px;">
+				<h3 class="w3-big"> Danger !</h3>
+				<p class="w3-big"> This URL may be a phishing link! </p>
+				
+			</div>
+        {% else %}
+		<div class="w3-panel w3-green w3-border w3-center" style="max-width: 50%; margin: 0 auto; padding: 10px;">
+			<h3 class="w3-big">Safe!</h3>
+			<p class="w3-big">The url appears to be legitimate.</p>
+			
 		  </div>
-		</div>
-		{% endif %}
+        {% endif %}
+		<p class="w3-big">Analyzed URL: {{ url }}</p>
+    
+</div>
+
+{% endif %}
+
     </section>
 
     <!-- Include JavaScript -->

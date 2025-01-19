@@ -1,7 +1,11 @@
-# importing required packages for Address Bar Based feature Extraction
+"""
+Author: Taha Zouggari
+Email: tahazouggari61@gmail.com
+GitHub: https://github.com/Tahazouggari
+"""
+
 from urllib.parse import urlparse, urlencode, unquote
 import re
-# importing required packages for Domain Based Feature Extraction
 from datetime import datetime
 
 
