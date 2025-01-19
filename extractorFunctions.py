@@ -1,7 +1,6 @@
 """
 Author: Taha Zouggari
 Email: tahazouggari61@gmail.com
-GitHub: https://github.com/Tahazouggari
 """
 
 from urllib.parse import urlparse, urlencode, unquote
@@ -9,7 +8,6 @@ import re
 from datetime import datetime
 
 
-# 2.Checks for IP address in URL (Have_IP)
 def havingIP(url):
     ip_pattern = r"\b(?:\d{1,3}\.){3}\d{1,3}\b"
     match = re.search(ip_pattern, url)
@@ -17,7 +15,7 @@ def havingIP(url):
         return 1
     return 0
 
-# 3.Checks the presence of @ in URL (Have_At)
+
 def haveAtSign(url):
   if "@" in url:
     at = 1
@@ -25,20 +23,18 @@ def haveAtSign(url):
     at = 0
   return at
 
-# 4.Finding the length of URL and categorizing (URL_Length)
 def getLength(url):
   return len(url)
 
-# 5.Gives number of '/' in URL (URL_Depth)
+
 def getDepth(url):
   s = urlparse(url).path.split('/')
   depth = 0
   for j in range(len(s)):
     if len(s[j]) != 0:
-      depth = depth+1
+      depth = depth+1 # legitimate
   return depth
 
-#listing shortening services
 shortening_services = r"bit\.ly|goo\.gl|shorte\.st|go2l\.ink|x\.co|ow\.ly|t\.co|tinyurl|tr\.im|is\.gd|cli\.gs|" \
                       r"yfrog\.com|migre\.me|ff\.im|tiny\.cc|url4\.eu|twit\.ac|su\.pr|twurl\.nl|snipurl\.com|" \
                       r"short\.to|BudURL\.com|ping\.fm|post\.ly|Just\.as|bkite\.com|snipr\.com|fic\.kr|loopt\.us|" \
@@ -48,7 +44,6 @@ shortening_services = r"bit\.ly|goo\.gl|shorte\.st|go2l\.ink|x\.co|ow\.ly|t\.co|
                       r"prettylinkpro\.com|scrnch\.me|filoops\.info|vzturl\.com|qr\.net|1url\.com|tweez\.me|v\.gd|" \
                       r"tr\.im|link\.zip\.net"
 
-# 8. Checking for Shortening Services in URL (Tiny_URL)
 def tinyURL(url):
     match=re.search(shortening_services,url)
     if match:
@@ -56,7 +51,6 @@ def tinyURL(url):
     else:
         return 0
 
-# 9.Checking for Prefix or Suffix Separated by (-) in the Domain (Prefix/Suffix)
 def prefixSuffix(url):
     if '-' in urlparse(url).netloc:
         return 1            # phishing
@@ -83,25 +77,14 @@ def sensitive_word(url):
 
 
 def has_unicode(url):
-    # Parse the URL
     parsed_url = urlparse(url)
-
-    # Get the netloc part of the URL
     netloc = parsed_url.netloc
-
-    # Decode the netloc using IDNA encoding
     decoded_netloc = netloc.encode('latin1').decode('idna')
-
-    # Unquote the decoded netloc
     unquoted_netloc = unquote(decoded_netloc)
-
-    # Compare the unquoted netloc with the original netloc
     if unquoted_netloc != netloc:
         return 1
-
     return 0
 
-# 13.Survival time of domain: The difference between termination time and creation time (Domain_Age)
 def domainAge(domain_name):
   creation_date = domain_name.creation_date
   expiration_date = domain_name.expiration_date
@@ -123,7 +106,6 @@ def domainAge(domain_name):
       age = 0
   return age
 
-# 14.End time of domain: The difference between termination time and current time (Domain_End)
 def domainEnd(domain_name):
   expiration_date = domain_name.expiration_date
   if isinstance(expiration_date,str):
@@ -144,7 +126,6 @@ def domainEnd(domain_name):
       end = 1
   return end
 
-# 15. IFrame Redirection (iFrame)
 def iframe(response):
   if response == "":
       return 1
@@ -154,7 +135,6 @@ def iframe(response):
       else:
           return 1
 
-# 16.Checks the effect of mouse over on status bar (Mouse_Over)
 def mouseOver(response):
   if response == "" :
     return 1
@@ -167,7 +147,6 @@ def mouseOver(response):
     except:
       return 1
 
-# 18.Checks the number of forwardings (Web_Forwards)
 def forwarding(response):
   if response == "":
     return 1
