@@ -10,11 +10,10 @@ import pickle as pk
 import pandas as pd
 import extractorFunctions as ef
 
-#Function to extract features
+
 def featureExtraction(url):
 
   features = []
-  #Address bar based features (12)
   features.append(ef.getLength(url))
   features.append(ef.getDepth(url))
   features.append(ef.tinyURL(url))
@@ -24,7 +23,6 @@ def featureExtraction(url):
 
 
   domain_name = ''
-  #Domain based features (4)
   dns = 0
   try:
     domain_name = whois.whois(urlparse(url).netloc)
@@ -34,7 +32,6 @@ def featureExtraction(url):
   features.append(1 if dns == 1 else ef.domainAge(domain_name))
   features.append(1 if dns == 1 else ef.domainEnd(domain_name))
 
-  # HTML & Javascript based features (4)
   dom = []
   try:
     response = httpx.get(url)
@@ -50,7 +47,7 @@ def featureExtraction(url):
   with open('model/pca_model.pkl', 'rb') as file:
     pca = pk.load(file)
 
-  #converting the list to dataframe
+ 
   feature_names = ['URL_Length', 'URL_Depth', 'TinyURL', 'Prefix/Suffix', 'No_Of_Dots', 'Sensitive_Words',
                        'Domain_Age', 'Domain_End', 'Have_Symbol','domain_att']
   dom_pd = pd.DataFrame([dom], columns = ['iFrame','Web_Forwards','Mouse_Over'])

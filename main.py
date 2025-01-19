@@ -1,7 +1,6 @@
 """
 Author: Taha Zouggari
 Email: tahazouggari61@gmail.com
-GitHub: https://github.com/Tahazouggari
 """
 from featureExtractor import featureExtraction
 from pycaret.classification import load_model, predict_model
