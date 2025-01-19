@@ -5,8 +5,73 @@ A Phishing URLs Detector using Machine Learning is a system designed to identify
         Flask
         sklearn : pip install scikit-learn
 
-## comande to run 
-     python3 app.py
-once you run the command on your terminal a page web will be hosted , you should copy paste the url on your browser to get into it.
+## How to Run?
 
-# not done yet ...
+- Clone or download [python-phishing-url-detection](https://github.com/sannjayy/python-phishing-url-detection) 
+
+`git clone git@github.com:sannjayy/python-phishing-url-detection.git`
+
+
+- Create a virtual environment
+```bash
+python -m venv zenv
+source zenv/Scripts/activate # Windows
+source zenv/bin/activate # Mac
+```
+
+
+- Install basic requirements
+```bash
+pip install -r requirements.txt
+
+# OR INITIAL INSTALLATION 
+pip install --upgrade pip
+pip install --upgrade setuptools
+
+pip install pandas whois httpx
+pip install pycaret # It will take sometime.
+```
+## How to Run?
+
+- Clone or download [python-phishing-url-detection](https://github.com/Tahazouggari/Pishing-Urls-detector.git) 
+
+`git clone https://github.com/Tahazouggari/Pishing-Urls-detector.git`
+
+
+- Create a virtual environment
+```bash
+python -m venv zenv
+source zenv/Scripts/activate # Windows
+source zenv/bin/activate # Mac
+```
+
+
+- Install basic requirements
+```bash
+
+pip install pandas whois httpx
+pip install pycaret # It will take sometime.
+```
+
+## Command to Run the Application
+
+Run the following command in your terminal:
+
+```bash
+python main.py 
+
+
+# OUTPUT: {'prediction_label': 0, 'prediction_score': 68.39} 
+
+# 0 = False | 1 True
+```
+
+### To Run GUI
+
+```bash
+pip install flask
+
+python app.py
+```
+
+Open http://127.0.0.1:5000 in your browser!
