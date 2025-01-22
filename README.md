@@ -9,7 +9,7 @@ A Phishing URLs Detector using Machine Learning is a system designed to identify
 `git clone https://github.com/Tahazouggari/Pishing-Urls-detector.git`
 
 
-- Create a virtual environment
+- Create a virtual environment.
 ```bash
 python -m venv zenv
 source zenv/Scripts/activate # Windows
