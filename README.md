@@ -1,8 +1,9 @@
-# demo on youtube : https://www.youtube.com/watch?v=KsIf5hX8uig
 
 # Pishing-Urls-detector
 A Phishing URLs Detector using Machine Learning is a system designed to identify and classify URLs as either legitimate or malicious (phishing). 
 
+🎥 **Demo Video:**  
+Watch the project in action on YouTube: [Phishing URLs Detector Demo](https://www.youtube.com/watch?v=KsIf5hX8uig)
 
 
 ## How to Run?
