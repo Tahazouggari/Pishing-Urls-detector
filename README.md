@@ -12,8 +12,8 @@ A Phishing URLs Detector using Machine Learning is a system designed to identify
 - Create a virtual environment.
 ```bash
 python -m venv zenv
-source zenv/Scripts/activate # Windows
-source zenv/bin/activate # Mac
+source venv/Scripts/activate # Windows
+source venv/bin/activate # Mac or linux
 ```
 
 
