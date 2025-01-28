@@ -50,5 +50,10 @@ python app.py
 ```
 
 Open "http://127.0.0.1:5000" in your browser.
-![Texte alternatif](visualization.png "Texte au survol")
+
+## Visualization
+
+Voici une visualisation pour expliquer le projet :
+
+![Visualization](visualization.png "Graphique de visualisation")
 
