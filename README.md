@@ -53,7 +53,7 @@ Open "http://127.0.0.1:5000" in your browser.
 
 ## Visualization
 
-Voici une visualisation pour expliquer le projet :
+Voici une visualisation pour le projet :
 
 ![Visualization](visulalization.png)
 
