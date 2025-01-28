@@ -49,7 +49,5 @@ pip install flask
 python app.py
 ```
 
-Open http://127.0.0.1:5000 in your browser.
-![Texte alternatif](./images/Screenshot-from-2025-01-28.png "Texte au survol")
-
+Open "http://127.0.0.1:5000" in your browser.
 
