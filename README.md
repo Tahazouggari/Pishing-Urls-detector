@@ -50,3 +50,5 @@ python app.py
 ```
 
 Open http://127.0.0.1:5000 in your browser.
+![Uploading Screenshot from 2025-01-28 13-40-19.png…]()
+
